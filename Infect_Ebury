@@ -1,0 +1,2 @@
+ssh -G 2>&1 | grep -e illegal -e unknown > /dev/null && echo "System clean" || echo "System infected"
+http://kb.iweb.com/entries/46933847-El-Rootkit-Ebury-de-SSH?locale=2
