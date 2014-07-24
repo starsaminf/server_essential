@@ -1,0 +1,5 @@
+2) Ir a /var/lib/dpkg/info
+
+3) Borrar todos los archivos que hagan referencia al paquete que genera el problema (nombre-del-paquete)
+
+4) En una Terminal poner sudo apt-get update.
